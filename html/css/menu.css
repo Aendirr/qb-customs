@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+
+#menu_container {
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(24 24 24 / 80%);
+    width: 36vh;
+    max-height: 78vh;
+    border-radius: 1vh;
+}
+
+#menu_heading {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18pt;
+    font-weight: 400;
+    color: rgb(236, 240, 241);
+    background-color: rgb(255, 87, 31);
+    border-radius: 0.6vh;
+    margin: 1vh;
+    padding: 0.5vh 0.5vh 0.5vh 0.5vh;
+    width: 33vh;
+}
+
+#menu_subheading {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: rgb(255, 87, 31);
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+    width: 34vh;
+    height: 2.4vh;
+    padding-top: 0.5vh;
+    border-radius: 0.4vh;
+}
+
+#menu_items {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 12pt;
+    font-style: normal;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    text-align: left;
+    line-height: 33px;
+    width: 36vh;
+}
+
+#menu_items li {
+    height: 1.8vw;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#menu_items li:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#menu_items li:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.item_selected {
+    background-color: rgb(255, 87, 31) !important;
+    color: white;
+    font-weight: 400;
+}
+
+#menu_status {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+    padding: 0vw 0vw 0.6vw 0vw;
+    color: #ffffff;
+    background-color: rgb(24 24 24 / 0%);
+    width: 36vh;
+}
+
+#menu_directions {
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    text-align: center;
+    font-size: 18pt;
+    color: #ededed;
+    width: 36vh;
+    margin-top: 1vh;
+    border-bottom-left-radius: 1vh;
+    border-bottom-right-radius: 1vh;
+    background-color: rgb(255, 87, 31);
+}
