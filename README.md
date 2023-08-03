@@ -1,5 +1,7 @@
 # qb-customs
-Work-in-progress resource!
+Almost completely finished.
+
+It receives its repair and modification fees from QB-Management. It pulls directly from the mechanic_funds.
 
 # License
 
